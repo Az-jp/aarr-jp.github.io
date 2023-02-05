@@ -22,7 +22,7 @@ const DiscordPage: FC = () => {
     <>
       <Seo
         title='Discordコミュニティ'
-        description='AARRのDiscordに参加しよう。'
+        description='AzのDiscordサーバーに参加しよう。'
       />
       <Snackbar
         onClose={() => setDiscordInviteCopyStatus(undefined)}
@@ -73,10 +73,11 @@ const DiscordPage: FC = () => {
               <Typography fontWeight='bold'>コミュニティに参加する前に少し待ってください🤚</Typography>
               <br />
               サーバーにはNSFWコンテンツを共有するためのチャンネルがいくつかありますが、
+              <br />
               <Typography component='span' fontWeight='bold'>完全な</Typography>
               エロサーバーではありません。
               <br />
-              AARRのDiscordコミュニティであり、ただ雑談がしたいだけの人もいます。
+              AzはDiscordコミュニティであり、ただ雑談がしたいだけの人もいます。
               <br />
               お互い不快な思いをしないように、NSFWコンテンツを共有する際は次の項目を守ってください。
               <br />
